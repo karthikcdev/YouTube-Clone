@@ -1,0 +1,38 @@
+.sidebar{
+    direction: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    background-color: #0f0f0f;
+    padding-top: 5px;
+    z-index: 200;
+    margin-left: 5px;
+}
+.icon{
+    height: 24px;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+.iconb{
+    display: grid;
+    grid-template-rows: 24px 1fr;
+    border-style: none;
+    background-color: #0f0f0f;
+    padding: 0;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.icont{
+    font-family: roboto,arial;
+    font-size: 10px;
+    color: white;
+    margin-top: 5px;
+}

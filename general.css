@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+a{
+    font-family: roboto,arial,sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: white;
+    
+}
+p{
+    font-family: roboto,arial,sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+button{
+    padding: 0;
+    border-style: none;
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+}
